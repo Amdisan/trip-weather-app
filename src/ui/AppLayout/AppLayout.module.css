@@ -1,0 +1,36 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 40rem;
+}
+
+.main {
+  padding: 4rem 3rem;
+}
+
+.container {
+  max-width: 44.8rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+@media (min-width: 1142px) {
+  .container {
+    max-width: 68.3rem;
+  }
+}
+@media (min-width: 1228px) {
+  .layout {
+    grid-template-columns: 1fr 48rem;
+  }
+  .container {
+    max-width: 68.3rem;
+  }
+}
+
+@media (min-width: 1459px) {
+  .container {
+    max-width: 91.9rem;
+  }
+}

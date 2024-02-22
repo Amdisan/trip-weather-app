@@ -1,0 +1,82 @@
+.wrapper {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  overflow-x: auto;
+  gap: 2.5rem;
+  scrollbar-width: thin;
+  padding: 1px;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+.container_text {
+  flex-basis: 21rem;
+  flex-shrink: 0;
+  flex-grow: 0;
+  height: 22rem;
+  border-radius: 0.2rem;
+  background-color: #f2f4f8;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  border: none;
+}
+.container_text:hover {
+  cursor: pointer;
+  outline: solid 1px #3da7d1;
+}
+.container_text:active {
+  cursor: pointer;
+  outline: solid 1px #3da7d1;
+}
+
+.container_text span:first-child {
+  display: block;
+  font-size: 5rem;
+}
+
+.arrow_button {
+  position: absolute;
+  top: 40%;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: none;
+  border: none;
+  z-index: 1000;
+  border-radius: 100%;
+  background-color: #3da7d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow_button:first-child {
+  transform: translateY(-50%);
+  transform: translateX(-60%);
+  box-shadow: -0.2rem 0 0.3rem rgba(0, 0, 0, 0.4);
+}
+
+.arrow_button:last-child {
+  right: 0;
+  transform: translateY(-50%);
+  transform: translateX(60%);
+  box-shadow: 0.2rem 0 0.3rem rgba(0, 0, 0, 0.4);
+}
+
+.arrow_button img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.arrow_button,
+.arrow_button img {
+  cursor: pointer;
+}
+
+.arrow_button:hover {
+  background-color: #3a8eaf;
+}

@@ -1,0 +1,16 @@
+.card_container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+
+.no_trip {
+  font-size: 2rem;
+}

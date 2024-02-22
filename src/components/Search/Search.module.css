@@ -1,0 +1,14 @@
+.search {
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.8rem;
+  width: 20rem;
+  height: 4.5rem;
+  padding-left: 35px;
+  outline: none;
+  border: none;
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  background: url('../../assets/search_icon.svg') no-repeat 10px, #f2f4f8;
+  background-size: 20px;
+}

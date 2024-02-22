@@ -1,0 +1,12 @@
+.aside {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14rem;
+  align-items: center;
+  background: url('/src/assets/cloud-16527.svg') 300px 80px no-repeat,
+    url('/src/assets/cloud-16527.svg') -50px 200px no-repeat,
+    url('/src/assets/cloud-16527.svg') 330px 420px no-repeat,
+    url('/src/assets/cloud-16527.svg') -100px 600px no-repeat, #110e3b;
+  background-size: 40%;
+}

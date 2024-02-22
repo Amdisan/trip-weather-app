@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  color: #fff;
+  gap: 2rem;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.numbers {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.text {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(198, 198, 198);
+}
+
+.same_day {
+  width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
